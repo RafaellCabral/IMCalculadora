@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@900&display=swap');
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: #598392;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans';
+}
+
+.container {
+    align-items: center;
+    position: flex;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px 50px;
+    display: fixed;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 650px;
+    background: #aec3b0;
+}
+
+.container-2 {
+    position: flex;
+    margin-top: -304px;
+    align-items: center;
+    display: fixed;
+    float: right;
+    padding-left: 50px;
+}
+
+input {
+    border-radius: 5px;
+    margin-top: -20px;
+    margin-right: 45px;
+    height: 35px;
+    width: 80px;
+    padding-left: 10px;
+    background-color: hidden;
+    border-style: line;
+}
+
+h1 {
+    height: 20px;
+    display: flex;
+    margin-top: 15px;
+    padding-block-end: 50px;
+    color: #292727;
+    font-style: oblique;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p {
+    margin-top: 0px;
+    padding: -20px;
+    color: #292626;
+    font-weight: 700;
+}
+
+h3 {
+    margin: 30px;
+    padding-left: 90px;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+button {
+    display: flex;
+    margin-top: -30px;
+    border-radius: 5px;
+    height: 27px;
+    color: #292626;
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+    margin: -8px;
+    padding-right: 10px;
+    border: none;
+    margin-left: 138px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: rgb(184, 218, 199);
+}
+
+.classe p {
+    margin-top: -20px;
+    color: #292626;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.caixa input {
+    position: absolute;
+    padding: 60px;
+    margin: -150px;
+    margin-left: 170px;
+    padding-left: 120px;
+    border: none;
+}
+
+.Resultado {
+    align-items: center;
+    margin-top: -130px;
+    margin-right: -20px;
+    margin-left: 100px;
+    height: 80px;
+    weight: 60px;
+    text-align: center;
+    padding: 10px 20px;
+    font-style: oblique;
+    text-decoration: wavy;
+}
+
+.Resultado-2 {
+    margin-top: -130px;
+    margin-right: -20px;
+    margin-left: 100px;
+    height: 80px;
+    weight: 60px;
+    text-align: center;
+    padding: 10px 20px;
+    font-style: oblique;
+}
